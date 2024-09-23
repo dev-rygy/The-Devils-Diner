@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eee7d07f51309944adc880cba1413eb, type: 3}
+  m_Name: Bat Kabobs
+  m_EditorClassIdentifier: 
+  stationType: 0
+  timeToCook: 4
+  platedSprite: {fileID: -1912735195, guid: a39f0a1d4b53cb146a2925bf7819454f, type: 3}
+  unplatedSprite: {fileID: 2065514862, guid: 5c18fe959b0cb4d4b86ef3c9740046ce, type: 3}
+  requiredIngredients:
+  - {fileID: 11400000, guid: 309c802c73b746e4dbc771a74c8bf40f, type: 2}
+  - {fileID: 11400000, guid: 9f318851a8f55054b8d5b597d5273d4f, type: 2}
+  description: Placeholder Text

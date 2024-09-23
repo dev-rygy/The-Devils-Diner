@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eee7d07f51309944adc880cba1413eb, type: 3}
+  m_Name: Tarantula Tonic
+  m_EditorClassIdentifier: 
+  stationType: 1
+  timeToCook: 4
+  platedSprite: {fileID: -487958028, guid: ebb1b56b64c6ee041b1be5119d3977fc, type: 3}
+  unplatedSprite: {fileID: -487958028, guid: ebb1b56b64c6ee041b1be5119d3977fc, type: 3}
+  requiredIngredients:
+  - {fileID: 11400000, guid: 98b76dd46f4705349932319e025659e7, type: 2}
+  - {fileID: 11400000, guid: ddd9f424318849f428f171758ad04674, type: 2}
+  description: Placeholder Text

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f28490abf2f31478c7f280452f0d2a, type: 3}
+  m_Name: Test Difficulty
+  m_EditorClassIdentifier: 
+  difficultyName: Test Night
+  nightPresets:
+  - name: Test Night 2
+    numberOfDemon: 0
+    endNightText: Night Survived
+    demonSpawnSettings:
+    - demonType: 0
+      demonSpawnType: 0
+      spawnChance: 0.5
+      spawnEveryXDemon: 0
+      maxPerQueue: 2
+      maxPerMap: 11
+      maxPerNight: 0
+    - demonType: 1
+      demonSpawnType: 0
+      spawnChance: 0.3
+      spawnEveryXDemon: 0
+      maxPerQueue: 1
+      maxPerMap: 4
+      maxPerNight: 0
+    - demonType: 2
+      demonSpawnType: 0
+      spawnChance: 0.2
+      spawnEveryXDemon: 0
+      maxPerQueue: 1
+      maxPerMap: 2
+      maxPerNight: 0
+    - demonType: 3
+      demonSpawnType: 0
+      spawnChance: 0.1
+      spawnEveryXDemon: 0
+      maxPerQueue: 1
+      maxPerMap: 1
+      maxPerNight: 0
+    - demonType: 4
+      demonSpawnType: 2
+      spawnChance: 0.1
+      spawnEveryXDemon: 0
+      maxPerQueue: 1
+      maxPerMap: 1
+      maxPerNight: 1
+    speedBuff:
+      toggle: 1
+      value: 1
+    slowHazard:
+      toggle: 1
+      value: 5
+  - name: Test Night 1
+    numberOfDemon: 4
+    endNightText: Night Survived
+    demonSpawnSettings:
+    - demonType: 0
+      demonSpawnType: 0
+      spawnChance: 1
+      spawnEveryXDemon: 0
+      maxPerQueue: 2
+      maxPerMap: 0
+      maxPerNight: 0
+    - demonType: 4
+      demonSpawnType: 2
+      spawnChance: 0.3
+      spawnEveryXDemon: 2
+      maxPerQueue: 0
+      maxPerMap: 0
+      maxPerNight: 0
+    speedBuff:
+      toggle: 1
+      value: 2
+    slowHazard:
+      toggle: 1
+      value: 5

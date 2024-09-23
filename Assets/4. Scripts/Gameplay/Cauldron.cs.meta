@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8deb9dd0cb3bd504abd41d85dc6b4f0d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - OnStartCookingSfx: {instanceID: 0}
+  - cookingParticle: {instanceID: 0}
+  - burnedFood: {instanceID: 0}
+  - doneIndicator: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - currentFood: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
